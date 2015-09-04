@@ -14,7 +14,7 @@ var {
   View,
 } = React;
 
-var FacebookLoginButton = require('./FacebookLoginButton.js')
+var FacebookLoginButton = require('./app/components/FacebookLoginButton.js')
 var { FBSDKLoginButton } = require('react-native-fbsdklogin')
 
 var FacebookLoginExample = React.createClass({
